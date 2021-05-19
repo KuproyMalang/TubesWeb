@@ -9,3 +9,11 @@ Route::get('/admin', function () {
 Route::get('/', function () {
     return view('layout.guest');
 });
+
+Route::get('/', function () {
+    return view('home');
+});
+
+Route::get('/buatpetisi', function () {
+    return view('buatpetisi');
+});
