@@ -11,7 +11,7 @@
     <title>User Template</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light  bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light  bg-transparent fixed-top">
         <div class="container-fluid">
           <a style="color:black; " class="navbar-brand" href="/"><b>Petisi kita</b></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
