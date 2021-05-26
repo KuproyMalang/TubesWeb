@@ -4,29 +4,30 @@
 
 
 @section('content')
+<link rel="stylesheet" href="css/buatpetisi.css">
 
-<div class="container" style="text-align: center">
-    <h1 style="color: red"><b>Membuat Petisi</b></h1>
-</div>
-<br>
-<br>
-<div class="container" style="text-align: center">
-    <h3 style="color:gray">Hal hal yang harus anda inginkan ketika membuat petisi</h3>
-</div>
-<br>
-<div class="container" style="text-align:left">
-    <h4>Isu apa yang ada ingin buat?</h4>
-    <h4>Mengapa anda membuat petisi tersebut?</h4>
-    <h4>Kemanakah Tujuan anda membuat?</h4>
-    <h4>Apakah anda akan bertanggung jawab dengan petisi ini?</h4>
-    <h4>Jika siap, silahkan klik tombol di bawah ini</h4>
-</div>
-<br>
-<div style="text-align: center">
-    <a href="/buatpetisi2" type="button" class="btn btn-success"> Mari Buat Petisi</a>
-</div>
+<div class="jumbotron">
+    <div class="container text-center">
+    <h1 class="display-4 font-weight-bold">Membuat Petisi</h1>
+    <hr class="my-4">
+    <h3 class="font-weight-bold">Hal hal yang harus anda perhatikan ketika membuat</h3>
+    <div style="width: 100%;display:inline-block;" class="text-center">
+        <div class="card font-weight-bold text-center" style="width:50%; margin:30px auto;">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Isu apa yang anda inginkan?</li>
+              <li class="list-group-item">Mengapa anda membuat petisi tersebut?</li>
+              <li class="list-group-item">Kemanakah Tujuan anda membuat?</li>
+              <li class="list-group-item">Apakah anda akan bertanggung jawab dengan petisi ini?</li>
+              <li class="list-group-item">Jika siap, silahkan klik tombol di bawah ini</li>
+            </ul>
+          </div>
+    </div>
+        <p class="lead">
+        <a class="btn btn-success btn-lg" href="/buatpetisi2" role="button">Buat Petisi</a>
+      </p>
 
-
+    </div>
+  </div>
 
 
 
