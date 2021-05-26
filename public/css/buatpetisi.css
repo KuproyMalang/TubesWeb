@@ -1,0 +1,12 @@
+/* buatpetisi */
+.jumbotron{
+    background-image: url(../image/empat.jpg);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* buatpetisi2 */
+.back{
+    margin-top: 100;
+}
