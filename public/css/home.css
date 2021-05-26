@@ -1,11 +1,12 @@
 /* style jumbotron */
 .jumbotron{
     background-image: url(../image/satu.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
-    height: 700px;
+    height: 1000px;
     text-align: center;
     color: white;
-    margin-top: -120;
+    margin-top: -100;
 }
 
 .jumbotron .display-4{
@@ -23,5 +24,4 @@
 .carousel-item .display-4{
     margin-top: -450px;
 }
-
 
