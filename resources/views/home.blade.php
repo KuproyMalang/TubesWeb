@@ -1,4 +1,4 @@
-@extends('layout.guest')
+@extends('layout.guest2')
 <title>Home</title>
 <link rel="stylesheet" href="css/home.css">
 
